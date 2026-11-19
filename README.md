@@ -1,6 +1,14 @@
 ## Minimalistic rEFInd theme
 
-### manuti added selection icons and show reboot and shutdown options in theme.conf
+### Changes in this fork
+
+This fork is based on [rEFInd-minimal](https://github.com/evanpurkhiser/rEFInd-minimal) and keeps the original theme. It adds:
+
+- Selection icons for menu entries.
+- Reboot and shutdown entries in `theme.conf` (`showtools reboot,shutdown`).
+- The original icons and background, with no extra dependencies.
+
+Installation is the same as in [Usage](#usage). If you do not want the reboot/shutdown entries, remove them from `theme.conf`.
 
 [rEFInd](http://www.rodsbooks.com/refind/) is an easy to use boot manager for UEFI
 based systems. This is a clean and minimal theme for it.
